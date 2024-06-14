@@ -14,8 +14,6 @@ import java.time.LocalDateTime;
 
 @Data
 @Builder
-@NoArgsConstructor
-@AllArgsConstructor
 @Document(collection = "transactions")
 public class Transaction<T> {
     @Id
